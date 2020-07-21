@@ -8,7 +8,10 @@ function addToCart(item){
   }
   
   function viewCart(){
-    for
+    if (cart.length === 0) {
+      console.log(`Your cart is empty.`)
+    }
+    
   }
 
 
